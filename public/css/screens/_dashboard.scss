@@ -1,0 +1,122 @@
+.dashboard {
+//    padding: 15px;
+  padding: 0px 10px 0px 10px;
+
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+
+    .leftpart {
+      display: flex;
+      justify-content: space-between;
+      width: 400px;
+      align-items: center;
+
+      .first {
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+      }
+
+      .activesection {
+        align-items: center;
+        display: flex;
+
+        p {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .rightpart {
+      display: flex;
+      align-items: center;
+
+      p {
+        color: #8c98a4;
+        margin-right: 10px;
+      }
+
+      .rescan-btn {
+        background-color: #1b7cf8;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .section2 {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+
+    .cookie-text {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+
+      p {
+        margin-left: 10px;
+      }
+      span {
+        margin-left: 5px;
+        text-decoration: underline;
+        font-size: 16px;
+        font-weight: bold;
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .section3 {
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .section-4 {
+    margin-top: 30px;
+    // display: flex;
+
+    .tablecontents {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        align-items: center;
+        text-align: center;
+
+        .statusOverlay {
+          font-size: 14px;
+          font-weight: bold;
+          padding: 5px;
+           width: 120px;
+          border-radius: 4px;
+        }
+      }
+
+      .item1 {
+        background-color: white;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #0b0b0b;
+      }
+      .headers {
+        margin-bottom: 20px;
+        color: #636363;
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+}

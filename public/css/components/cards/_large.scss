@@ -1,0 +1,65 @@
+.cardlarge {
+  width: 366px;
+  height: 267px;
+  background-color: white;
+
+  border-radius: 8px;
+  //   margin-right: 20px;
+
+  p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .pie {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-image: conic-gradient(
+        #ffc109 70deg,
+        #de4437 0 165deg,
+        #00c9a6 50deg 225deg
+      );
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .accepted {
+          padding: 3px;
+          background-color: rgb(7, 255, 172);
+          width: 5px;
+          height: 5px;
+        }
+        .partially {
+          padding: 3px;
+          background-color: rgb(255, 255, 0);
+          width: 5px;
+          height: 5px;
+        }
+        .rejected {
+          padding: 3px;
+          background-color: rgb(255, 0, 0);
+          width: 5px;
+          height: 5px;
+        }
+
+        span{
+            flex:1;
+            margin-left: 5px;
+            
+        }
+      }
+    }
+  }
+}

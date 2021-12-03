@@ -1,0 +1,402 @@
+.app {
+  height: 100vh;
+  background-color: #faf9f8;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .others {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  background-color: #faf9f8;
+}
+
+.sidebar {
+  width: 228px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1883bd), to(#251888));
+  background-image: linear-gradient(to bottom, #1883bd, #251888);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .brand-name {
+  margin-top: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: inherit;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sidebar ul li {
+  width: 190px;
+  padding: 10px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar ul li p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.sidebar ul .focused {
+  background-color: #7ea6cd40;
+  border-radius: 8px;
+}
+
+.Navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 72px;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Navbar .nav-section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+.Navbar .nav-section2 select {
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  border-color: lightgray;
+}
+
+.Navbar .nav-section2 .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Navbar .nav-section2 .naviconcontainer {
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.card-small {
+  width: 167px;
+  height: 267px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.card-small .overlay {
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.card-small .count {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-small .content {
+  text-align: center;
+}
+
+.card-small .content .heading {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-small .content .sub-heading {
+  font-size: 15px;
+  font-weight: normal;
+  color: #9f9f9f;
+}
+
+.cardlarge {
+  width: 366px;
+  height: 267px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.cardlarge p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.cardlarge .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.cardlarge .content .pie {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: conic-gradient(#ffc109 70deg, #de4437 0 165deg, #00c9a6 50deg 225deg);
+}
+
+.cardlarge .content ul {
+  list-style: none;
+}
+
+.cardlarge .content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardlarge .content ul li .accepted {
+  padding: 3px;
+  background-color: #07ffac;
+  width: 5px;
+  height: 5px;
+}
+
+.cardlarge .content ul li .partially {
+  padding: 3px;
+  background-color: yellow;
+  width: 5px;
+  height: 5px;
+}
+
+.cardlarge .content ul li .rejected {
+  padding: 3px;
+  background-color: red;
+  width: 5px;
+  height: 5px;
+}
+
+.cardlarge .content ul li span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 5px;
+}
+
+.dashboard {
+  padding: 0px 10px 0px 10px;
+}
+
+.dashboard .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dashboard .section1 .leftpart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard .section1 .leftpart .first {
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.dashboard .section1 .leftpart .activesection {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard .section1 .leftpart .activesection p {
+  margin-left: 10px;
+}
+
+.dashboard .section1 .rightpart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard .section1 .rightpart p {
+  color: #8c98a4;
+  margin-right: 10px;
+}
+
+.dashboard .section1 .rightpart .rescan-btn {
+  background-color: #1b7cf8;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dashboard .section2 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.dashboard .section2 .cookie-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.dashboard .section2 .cookie-text p {
+  margin-left: 10px;
+}
+
+.dashboard .section2 .cookie-text span {
+  margin-left: 5px;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
+
+.dashboard .section3 {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard .section-4 {
+  margin-top: 30px;
+}
+
+.dashboard .section-4 .tablecontents ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.dashboard .section-4 .tablecontents ul .statusOverlay {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  width: 120px;
+  border-radius: 4px;
+}
+
+.dashboard .section-4 .tablecontents .item1 {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #0b0b0b;
+}
+
+.dashboard .section-4 .tablecontents .headers {
+  margin-bottom: 20px;
+  color: #636363;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */

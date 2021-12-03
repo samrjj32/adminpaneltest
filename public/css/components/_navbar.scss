@@ -1,0 +1,35 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  background-color: $color-navbar;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  .nav-section2 {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+
+    select {
+      width: 200px;
+      height: 40px;
+      padding: 8px;
+      border-radius: 8px;
+      border-color: lightgray;
+    }
+   .second{
+       display: flex;
+   }
+    .naviconcontainer {
+        // height: 40px;
+     padding: 10px;
+      border: 1px solid lightgrey;
+      border-radius: 8px;
+      margin-right: 10px;
+    }
+  }
+}
